@@ -1,0 +1,1271 @@
+{
+	"compiler": {
+		"version": "0.5.9+commit.e560f70d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "id",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "getApproved",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "height",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "ids",
+						"type": "uint256[]"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "batchTransferFrom",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "ids",
+						"type": "uint256[]"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "safeBatchTransferFrom",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "approveFor",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "size",
+						"type": "uint256"
+					},
+					{
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "transferQuad",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "x",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "safeTransferFrom",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "y",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "ownerOf",
+				"outputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "who",
+						"type": "address"
+					}
+				],
+				"name": "isSuperOperator",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "size",
+						"type": "uint256"
+					},
+					{
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "mintQuad",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getAdmin",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "_burn",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "burnFrom",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "_numNFTPerAddress",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "metaTransactionProcessor",
+						"type": "address"
+					},
+					{
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "setMetaTransactionProcessor",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newAdmin",
+						"type": "address"
+					}
+				],
+				"name": "changeAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_owners",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					},
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "_operatorsForAll",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "width",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"name": "approved",
+						"type": "bool"
+					}
+				],
+				"name": "setApprovalForAll",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "who",
+						"type": "address"
+					}
+				],
+				"name": "isMinter",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "superOperator",
+						"type": "address"
+					},
+					{
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "setSuperOperator",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "safeTransferFrom",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_operators",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "tokenURI",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "minter",
+						"type": "address"
+					},
+					{
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "setMinter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "who",
+						"type": "address"
+					}
+				],
+				"name": "isMetaTransactionProcessor",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "operator",
+						"type": "address"
+					}
+				],
+				"name": "isApprovedForAll",
+				"outputs": [
+					{
+						"name": "isOperator",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "sizes",
+						"type": "uint256[]"
+					},
+					{
+						"name": "xs",
+						"type": "uint256[]"
+					},
+					{
+						"name": "ys",
+						"type": "uint256[]"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "batchTransferQuad",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"name": "approved",
+						"type": "bool"
+					}
+				],
+				"name": "setApprovalForAllFor",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "metaTransactionContract",
+						"type": "address"
+					},
+					{
+						"name": "admin",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "superOperator",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "Minter",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "metaTransactionProcessor",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "MetaTransactionProcessor",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "superOperator",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "SuperOperator",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "oldAdmin",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "newAdmin",
+						"type": "address"
+					}
+				],
+				"name": "AdminChanged",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_approved",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_operator",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "_approved",
+						"type": "bool"
+					}
+				],
+				"name": "ApprovalForAll",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"approve(address,uint256)": {
+					"params": {
+						"id": "The id of the token\r",
+						"operator": "The address receiving the approval\r"
+					}
+				},
+				"approveFor(address,address,uint256)": {
+					"params": {
+						"id": "The id of the token\r",
+						"operator": "The address receiving the approval\r",
+						"sender": "The address giving the approval\r"
+					}
+				},
+				"balanceOf(address)": {
+					"params": {
+						"owner": "The address to look for\r"
+					},
+					"return": "The number of Land token owned by the address\r"
+				},
+				"batchTransferFrom(address,address,uint256[],bytes)": {
+					"params": {
+						"data": "additional data\r",
+						"from": "The sender of the token\r",
+						"ids": "The ids of the tokens\r",
+						"to": "The recipient of the token\r"
+					}
+				},
+				"batchTransferQuad(address,address,uint256[],uint256[],uint256[],bytes)": {
+					"params": {
+						"data": "additional data"
+					}
+				},
+				"burn(uint256)": {
+					"params": {
+						"id": "token which will be burnt."
+					}
+				},
+				"burnFrom(address,uint256)": {
+					"params": {
+						"id": "token which will be burnt."
+					}
+				},
+				"changeAdmin(address)": {
+					"params": {
+						"newAdmin": "address of the new administrator."
+					}
+				},
+				"getAdmin()": {
+					"return": "the current administrator of this contract."
+				},
+				"getApproved(uint256)": {
+					"params": {
+						"id": "The id of the token\r"
+					},
+					"return": "The address of the operator\r"
+				},
+				"height()": {
+					"return": "height"
+				},
+				"isApprovedForAll(address,address)": {
+					"params": {
+						"operator": "The address of the operator\r",
+						"owner": "The address of the owner\r"
+					},
+					"return": "The status of the approval\r"
+				},
+				"isMetaTransactionProcessor(address)": {
+					"return": "whether the address has meta-transaction execution rights."
+				},
+				"isMinter(address)": {
+					"return": "whether the address has minter rights."
+				},
+				"isSuperOperator(address)": {
+					"return": "whether the address has superOperator rights."
+				},
+				"mintQuad(address,uint256,uint256,uint256,bytes)": {
+					"params": {
+						"data": "extra data to pass to the transfer\r",
+						"size": "The size of the new quad\r",
+						"to": "The recipient of the new quad\r",
+						"x": "The top left x coordinate of the new quad\r",
+						"y": "The top left y coordinate of the new quad\r"
+					}
+				},
+				"name()": {
+					"return": "The name of the token contract\r"
+				},
+				"ownerOf(uint256)": {
+					"params": {
+						"id": "The id of the Land\r"
+					},
+					"return": "The address of the owner\r"
+				},
+				"safeBatchTransferFrom(address,address,uint256[],bytes)": {
+					"params": {
+						"data": "additional data\r",
+						"from": "The sender of the token\r",
+						"ids": "The ids of the tokens\r",
+						"to": "The recipient of the token\r"
+					}
+				},
+				"safeTransferFrom(address,address,uint256)": {
+					"params": {
+						"from": "The send of the token\r",
+						"id": "The id of the token\r",
+						"to": "The recipient of the token\r"
+					}
+				},
+				"safeTransferFrom(address,address,uint256,bytes)": {
+					"params": {
+						"data": "Additional data\r",
+						"from": "The sender of the token\r",
+						"id": "The id of the token\r",
+						"to": "The recipient of the token\r"
+					}
+				},
+				"setApprovalForAll(address,bool)": {
+					"params": {
+						"approved": "The determination of the approval\r",
+						"operator": "The address receiving the approval\r"
+					}
+				},
+				"setApprovalForAllFor(address,address,bool)": {
+					"params": {
+						"approved": "The determination of the approval\r",
+						"operator": "The address receiving the approval\r",
+						"sender": "The address giving the approval\r"
+					}
+				},
+				"setMetaTransactionProcessor(address,bool)": {
+					"params": {
+						"enabled": "set whether the metaTransactionProcessor is enabled or disabled."
+					}
+				},
+				"setMinter(address,bool)": {
+					"params": {
+						"enabled": "set whether the minter is enabled or disabled."
+					}
+				},
+				"setSuperOperator(address,bool)": {
+					"params": {
+						"enabled": "set whether the superOperator is enabled or disabled."
+					}
+				},
+				"supportsInterface(bytes4)": {
+					"params": {
+						"id": "The id of the interface\r"
+					},
+					"return": "True if the interface is supported\r"
+				},
+				"symbol()": {
+					"return": "The symbol of the token contract\r"
+				},
+				"tokenURI(uint256)": {
+					"params": {
+						"id": "The id of the token\r"
+					},
+					"return": "The URI of the token\r"
+				},
+				"transferFrom(address,address,uint256)": {
+					"params": {
+						"from": "The sender of the token\r",
+						"id": "The id of the token\r",
+						"to": "The recipient of the token\r"
+					}
+				},
+				"transferQuad(address,address,uint256,uint256,uint256,bytes)": {
+					"params": {
+						"data": "additional data"
+					}
+				},
+				"width()": {
+					"return": "width"
+				},
+				"x(uint256)": {
+					"return": "the x coordinates"
+				},
+				"y(uint256)": {
+					"return": "the y coordinates"
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {
+				"approve(address,uint256)": {
+					"notice": "Approve an operator to spend tokens on the sender behalf\r"
+				},
+				"approveFor(address,address,uint256)": {
+					"notice": "Approve an operator to spend tokens on the sender behalf\r"
+				},
+				"balanceOf(address)": {
+					"notice": "Return the number of Land owned by an address\r"
+				},
+				"batchTransferFrom(address,address,uint256[],bytes)": {
+					"notice": "Transfer many tokens between 2 addresses\r"
+				},
+				"getApproved(uint256)": {
+					"notice": "Get the approved operator for a specific token\r"
+				},
+				"isApprovedForAll(address,address)": {
+					"notice": "Check if the sender approved the operator\r"
+				},
+				"mintQuad(address,uint256,uint256,uint256,bytes)": {
+					"notice": "Mint a new quad (aligned to a quad tree with size 3, 6, 12 or 24 only)\r"
+				},
+				"name()": {
+					"notice": "Return the name of the token contract\r"
+				},
+				"ownerOf(uint256)": {
+					"notice": "Return the owner of a Land\r"
+				},
+				"safeBatchTransferFrom(address,address,uint256[],bytes)": {
+					"notice": "Transfer many tokens between 2 addresses ensuring the receiving contract has a receiver method\r"
+				},
+				"safeTransferFrom(address,address,uint256)": {
+					"notice": "Transfer a token between 2 addresses letting the receiver knows of the transfer\r"
+				},
+				"safeTransferFrom(address,address,uint256,bytes)": {
+					"notice": "Transfer a token between 2 addresses letting the receiver knows of the transfer\r"
+				},
+				"setApprovalForAll(address,bool)": {
+					"notice": "Set the approval for an operator to manage all the tokens of the sender\r"
+				},
+				"setApprovalForAllFor(address,address,bool)": {
+					"notice": "Set the approval for an operator to manage all the tokens of the sender\r"
+				},
+				"supportsInterface(bytes4)": {
+					"notice": "Check if the contract supports an interface\r 0x01ffc9a7 is ERC-165\r 0x80ac58cd is ERC-721\r 0x5b5e139f is ERC-721 metadata\r"
+				},
+				"symbol()": {
+					"notice": "Return the symbol of the token contract\r"
+				},
+				"tokenURI(uint256)": {
+					"notice": "Return the URI of a specific token\r"
+				},
+				"transferFrom(address,address,uint256)": {
+					"notice": "Transfer a token between 2 addresses\r"
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Land.sol": "Land"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC721BaseToken.sol": {
+			"keccak256": "0xabc2bbc42a6298abf476b4439b6643222203ca9dbb605a291e7426eedc144a2b",
+			"urls": [
+				"bzzr://c821ee878cc23434caea41ef0e030c89253881a1f181c21e2e555d5c8340bbf1",
+				"dweb:/ipfs/QmecUQt2M3igT3GRKK4AQKt4xJJBxuXJYAzFXHs7BKYbh2"
+			]
+		},
+		"contracts/Land.sol": {
+			"keccak256": "0xd3881c121135f68e1af6147a641769c2dbd3d0638fe0085a13ac959f4aa7f332",
+			"urls": [
+				"bzzr://33b47a0fa4a63573e17ef8bb37b8e4a35d1f89843093f4fc60df069f525bb4be",
+				"dweb:/ipfs/QmW2k64t83KMGcohdsckswtKHW8Ewz9G5dWm1DKB2279Ei"
+			]
+		},
+		"contracts/LandBaseToken.sol": {
+			"keccak256": "0x7744f6a5028261abaf0a5cc7e5143e49437a1ae04fe0c4b39895c31d24e1da08",
+			"urls": [
+				"bzzr://d6e4f096fb8da0945b4973b31fe7a3e6a61cd18b2ee91217788bf6c2a80bef09",
+				"dweb:/ipfs/QmTuxBfUyvdkY5fdKEV27dzRHSABPdbHDNL5JHUjNe1tXh"
+			]
+		},
+		"contracts_common/src/BaseWithStorage/Admin.sol": {
+			"keccak256": "0x404e7ba6ea110c131f876b09cba34a62368799fd5c177b24002899e689981ead",
+			"urls": [
+				"bzzr://75281ed60f0d82663346186a1fb7e517a7c4e4a48cc15b007805a7b9e9c8514f",
+				"dweb:/ipfs/QmfHaw7ttoa5Em7sCD3gzRyrvmPEUA3K3PaaYEUmYrGoTD"
+			]
+		},
+		"contracts_common/src/BaseWithStorage/MetaTransactionReceiver.sol": {
+			"keccak256": "0x307914c2818353ad6969cc3c228cdb3f0ceba717d92c7685a69b413e7de60ee2",
+			"urls": [
+				"bzzr://2c3d0ae63ce5376f50fd904f0779f5842b6223b6d42a0d9704b441605e536cbf",
+				"dweb:/ipfs/QmePQAMLKnUFy7dtkzEWcegDxhrzbQp2zGsHGsqvS3gW1L"
+			]
+		},
+		"contracts_common/src/BaseWithStorage/SuperOperators.sol": {
+			"keccak256": "0x3cd04f6009c4f1028a6f3ac504818c909e53bdb5aa43d261d3b93c7348930fbe",
+			"urls": [
+				"bzzr://f07c6ccb801bea0018c7b2597c8a50e61a04de6d37e55d04ff31fa5a30750ce4",
+				"dweb:/ipfs/QmcY8W6syUpqxhYys6Mh78Mtr1SGYnULQtTBZYGbvz8NPB"
+			]
+		},
+		"contracts_common/src/Interfaces/ERC721Events.sol": {
+			"keccak256": "0xafbe8e00be7e95dd9d8024e0c3bbf39cc6c5c09d6d101c02a8ca9b611736e71e",
+			"urls": [
+				"bzzr://295f4dd15efe2d323d233cbb62a4237f649257ffbfcac8e508527d7aafac45ce",
+				"dweb:/ipfs/QmVoVS79Xci7wzDc8G8oo9dr4RY7b4xMaKoRJXpiTjnkBd"
+			]
+		},
+		"contracts_common/src/Interfaces/ERC721MandatoryTokenReceiver.sol": {
+			"keccak256": "0xd85c4890c8e5bbda71e00a691f5357778c6bec20cd454fd7741c0811ee25263a",
+			"urls": [
+				"bzzr://3f8b0300f04703e0397ad3f717298865d52817293b05a9f705ebfe48fc37b609",
+				"dweb:/ipfs/QmPx7RZ2MACSYfeRun4XsNLfeJHrD7qcufzjXCYzB29uRS"
+			]
+		},
+		"contracts_common/src/Interfaces/ERC721TokenReceiver.sol": {
+			"keccak256": "0x3fa33ffc7195c46a064ec088b03537adf9295f210646ce428a8ce442ff068456",
+			"urls": [
+				"bzzr://90cb4012ff8da35aeed587f1a1f36bb52bdac893e132ff21946c370368172f81",
+				"dweb:/ipfs/QmVfBu7WNPBNFEuTWFVprKsb9fCrJPMeFquMSMNbP61J94"
+			]
+		},
+		"contracts_common/src/Libraries/AddressUtils.sol": {
+			"keccak256": "0x863e30a15be9754beec13719dc670f9d5a8e057283a8aaec2126fbf83f43d852",
+			"urls": [
+				"bzzr://168e3225b1715ebca32d1084ad8b4046d8b6cc9c8a4dead4e50ab5512cdf7d75",
+				"dweb:/ipfs/QmRyvZn9nuc3NZuExgz9DD8n7J8Ae6sHYsM1oEe9sJoxCi"
+			]
+		}
+	},
+	"version": 1
+}

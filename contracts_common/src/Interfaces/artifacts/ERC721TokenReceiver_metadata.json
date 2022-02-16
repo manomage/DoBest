@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.5.9+commit.e560f70d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721Received",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts_common/src/Interfaces/ERC721TokenReceiver.sol": "ERC721TokenReceiver"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts_common/src/Interfaces/ERC721TokenReceiver.sol": {
+			"keccak256": "0x3fa33ffc7195c46a064ec088b03537adf9295f210646ce428a8ce442ff068456",
+			"urls": [
+				"bzzr://90cb4012ff8da35aeed587f1a1f36bb52bdac893e132ff21946c370368172f81",
+				"dweb:/ipfs/QmVfBu7WNPBNFEuTWFVprKsb9fCrJPMeFquMSMNbP61J94"
+			]
+		}
+	},
+	"version": 1
+}

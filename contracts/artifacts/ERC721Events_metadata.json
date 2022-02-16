@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.5.9+commit.e560f70d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_approved",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "_operator",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "_approved",
+						"type": "bool"
+					}
+				],
+				"name": "ApprovalForAll",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"details": "see https://eips.ethereum.org/EIPS/eip-721\r",
+			"methods": {},
+			"title": "ERC721 Non-Fungible Token Standard basic interface\r"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC721Events.sol": "ERC721Events"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC721Events.sol": {
+			"keccak256": "0xafbe8e00be7e95dd9d8024e0c3bbf39cc6c5c09d6d101c02a8ca9b611736e71e",
+			"urls": [
+				"bzzr://295f4dd15efe2d323d233cbb62a4237f649257ffbfcac8e508527d7aafac45ce",
+				"dweb:/ipfs/QmVoVS79Xci7wzDc8G8oo9dr4RY7b4xMaKoRJXpiTjnkBd"
+			]
+		}
+	},
+	"version": 1
+}

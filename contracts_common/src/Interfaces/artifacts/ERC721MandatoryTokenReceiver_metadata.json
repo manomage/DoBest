@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.5.9+commit.e560f70d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721Received",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "ids",
+						"type": "uint256[]"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721BatchReceived",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {},
+			"notice": "Note: The ERC-165 identifier for this interface is 0x5e8bf644.\r"
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts_common/src/Interfaces/ERC721MandatoryTokenReceiver.sol": "ERC721MandatoryTokenReceiver"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts_common/src/Interfaces/ERC721MandatoryTokenReceiver.sol": {
+			"keccak256": "0xd85c4890c8e5bbda71e00a691f5357778c6bec20cd454fd7741c0811ee25263a",
+			"urls": [
+				"bzzr://3f8b0300f04703e0397ad3f717298865d52817293b05a9f705ebfe48fc37b609",
+				"dweb:/ipfs/QmPx7RZ2MACSYfeRun4XsNLfeJHrD7qcufzjXCYzB29uRS"
+			]
+		}
+	},
+	"version": 1
+}

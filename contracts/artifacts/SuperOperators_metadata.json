@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.5.9+commit.e560f70d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "who",
+						"type": "address"
+					}
+				],
+				"name": "isSuperOperator",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getAdmin",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newAdmin",
+						"type": "address"
+					}
+				],
+				"name": "changeAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "superOperator",
+						"type": "address"
+					},
+					{
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "setSuperOperator",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "superOperator",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "SuperOperator",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "oldAdmin",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "newAdmin",
+						"type": "address"
+					}
+				],
+				"name": "AdminChanged",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"changeAdmin(address)": {
+					"params": {
+						"newAdmin": "address of the new administrator."
+					}
+				},
+				"getAdmin()": {
+					"return": "the current administrator of this contract."
+				},
+				"isSuperOperator(address)": {
+					"return": "whether the address has superOperator rights."
+				},
+				"setSuperOperator(address,bool)": {
+					"params": {
+						"enabled": "set whether the superOperator is enabled or disabled."
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SuperOperators.sol": "SuperOperators"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Admin.sol": {
+			"keccak256": "0x404e7ba6ea110c131f876b09cba34a62368799fd5c177b24002899e689981ead",
+			"urls": [
+				"bzzr://75281ed60f0d82663346186a1fb7e517a7c4e4a48cc15b007805a7b9e9c8514f",
+				"dweb:/ipfs/QmfHaw7ttoa5Em7sCD3gzRyrvmPEUA3K3PaaYEUmYrGoTD"
+			]
+		},
+		"contracts/SuperOperators.sol": {
+			"keccak256": "0x3cd04f6009c4f1028a6f3ac504818c909e53bdb5aa43d261d3b93c7348930fbe",
+			"urls": [
+				"bzzr://f07c6ccb801bea0018c7b2597c8a50e61a04de6d37e55d04ff31fa5a30750ce4",
+				"dweb:/ipfs/QmcY8W6syUpqxhYys6Mh78Mtr1SGYnULQtTBZYGbvz8NPB"
+			]
+		}
+	},
+	"version": 1
+}

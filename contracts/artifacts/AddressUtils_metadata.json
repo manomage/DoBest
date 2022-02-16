@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.9+commit.e560f70d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AddressUtils.sol": "AddressUtils"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AddressUtils.sol": {
+			"keccak256": "0x863e30a15be9754beec13719dc670f9d5a8e057283a8aaec2126fbf83f43d852",
+			"urls": [
+				"bzzr://168e3225b1715ebca32d1084ad8b4046d8b6cc9c8a4dead4e50ab5512cdf7d75",
+				"dweb:/ipfs/QmRyvZn9nuc3NZuExgz9DD8n7J8Ae6sHYsM1oEe9sJoxCi"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.5.9+commit.e560f70d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getAdmin",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "metaTransactionProcessor",
+						"type": "address"
+					},
+					{
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "setMetaTransactionProcessor",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newAdmin",
+						"type": "address"
+					}
+				],
+				"name": "changeAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "who",
+						"type": "address"
+					}
+				],
+				"name": "isMetaTransactionProcessor",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "metaTransactionProcessor",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "enabled",
+						"type": "bool"
+					}
+				],
+				"name": "MetaTransactionProcessor",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "oldAdmin",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "newAdmin",
+						"type": "address"
+					}
+				],
+				"name": "AdminChanged",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"changeAdmin(address)": {
+					"params": {
+						"newAdmin": "address of the new administrator."
+					}
+				},
+				"getAdmin()": {
+					"return": "the current administrator of this contract."
+				},
+				"isMetaTransactionProcessor(address)": {
+					"return": "whether the address has meta-transaction execution rights."
+				},
+				"setMetaTransactionProcessor(address,bool)": {
+					"params": {
+						"enabled": "set whether the metaTransactionProcessor is enabled or disabled."
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts_common/src/BaseWithStorage/MetaTransactionReceiver.sol": "MetaTransactionReceiver"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts_common/src/BaseWithStorage/Admin.sol": {
+			"keccak256": "0x404e7ba6ea110c131f876b09cba34a62368799fd5c177b24002899e689981ead",
+			"urls": [
+				"bzzr://75281ed60f0d82663346186a1fb7e517a7c4e4a48cc15b007805a7b9e9c8514f",
+				"dweb:/ipfs/QmfHaw7ttoa5Em7sCD3gzRyrvmPEUA3K3PaaYEUmYrGoTD"
+			]
+		},
+		"contracts_common/src/BaseWithStorage/MetaTransactionReceiver.sol": {
+			"keccak256": "0x307914c2818353ad6969cc3c228cdb3f0ceba717d92c7685a69b413e7de60ee2",
+			"urls": [
+				"bzzr://2c3d0ae63ce5376f50fd904f0779f5842b6223b6d42a0d9704b441605e536cbf",
+				"dweb:/ipfs/QmePQAMLKnUFy7dtkzEWcegDxhrzbQp2zGsHGsqvS3gW1L"
+			]
+		}
+	},
+	"version": 1
+}

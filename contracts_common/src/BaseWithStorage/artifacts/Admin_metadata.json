@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.5.9+commit.e560f70d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getAdmin",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newAdmin",
+						"type": "address"
+					}
+				],
+				"name": "changeAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "oldAdmin",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "newAdmin",
+						"type": "address"
+					}
+				],
+				"name": "AdminChanged",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"changeAdmin(address)": {
+					"params": {
+						"newAdmin": "address of the new administrator."
+					}
+				},
+				"getAdmin()": {
+					"return": "the current administrator of this contract."
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts_common/src/BaseWithStorage/Admin.sol": "Admin"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts_common/src/BaseWithStorage/Admin.sol": {
+			"keccak256": "0x404e7ba6ea110c131f876b09cba34a62368799fd5c177b24002899e689981ead",
+			"urls": [
+				"bzzr://75281ed60f0d82663346186a1fb7e517a7c4e4a48cc15b007805a7b9e9c8514f",
+				"dweb:/ipfs/QmfHaw7ttoa5Em7sCD3gzRyrvmPEUA3K3PaaYEUmYrGoTD"
+			]
+		}
+	},
+	"version": 1
+}
